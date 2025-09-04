@@ -26,8 +26,8 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=achmadaldino&show_icons=true&theme=tokyonight" alt="stats" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=achmadaldino&theme=tokyonight" alt="streak" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=aldino012&show_icons=true&theme=tokyonight" alt="stats" height="160"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aldino012&theme=tokyonight" alt="streak" height="160"/>
 </p>
 
 ---
@@ -41,10 +41,7 @@
 
 ## 🤝 Connect with Me
 <p>
-  <a href="https://github.com/achmadaldino" target="_blank">
+  <a href="https://github.com/aldino012" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
