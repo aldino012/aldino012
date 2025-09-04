@@ -1,0 +1,22 @@
+$background_nav : #90B4E3;
+$background_body : #5A7184;
+$color_text : #ffff;
+$background_header : #ffff;
+$background_footer : #ffff;
+
+.footer-menu{
+    background-color: $background_footer;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 70px;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .title-footer{
+      text-align: center;
+      font-weight: bold;
+  }

@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+}
+
+.container div{
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+.gallery div{
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 1rf 3fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+}
+
+.header{
+    background-color:lightsalmon;
+    grid-column: 1/3;
+    padding: 20px;
+    text-align: center;
+}
+
+.main{
+    background-color: coral;
+    padding: 20px;
+}
+
+.menu{
+    background-color: lightskyblue;
+}
+
+
+.sidebar{
+    background-color:lightslategray ;
+    padding: 20px;
+}
+
+.footer{
+    background-color: lightcoral;
+    padding: 20px;
+    grid-column: 1/3;
+    text-align: center;
+}

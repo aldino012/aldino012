@@ -1,0 +1,31 @@
+@use 'nav.scss';
+
+$warnaPrimer:blue;
+$warnaInverse:red;
+$border: 3px yellow dashed;
+$padding: 3em;
+$warnaSekunder: #ccc;
+
+$maxSection:1024px;
+
+.primer{
+    color: $warnaInverse;
+    background-color: $warnaPrimer;
+    border: $border;
+    padding: $padding;
+    
+}
+
+.inverse-primer{
+    color: $warnaPrimer;
+    background-color: $warnaInverse;
+    border: $border;
+    padding: $padding;
+    width: $maxSection*0.5;
+}
+
+aside{
+    color: $warnaPrimer;
+    width: $maxSection*25;
+}
+

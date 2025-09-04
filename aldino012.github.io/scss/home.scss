@@ -1,0 +1,101 @@
+$background_nav : #90B4E3;
+$background_body : #5A7184;
+$color_text : #ffff;
+$background_header : #ffff;
+$background_footer : #ffff;
+$color_text : #ffff;
+
+@use 'nav.scss';
+@use 'footer.scss';
+
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background_body;
+}
+
+.header-menu{
+    background-color: #ffff;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-profile{
+    margin: 100px;
+    display: block;
+    z-index: 2;
+ }
+ 
+ .image-profile img{
+     border-radius: 50%;
+     width: 150px ;
+     height: 150px;
+     object-fit: cover;
+     display: flex;
+     margin: 0px auto;
+ }
+ 
+ .profile-name{
+     text-align: center;
+     justify-content: center;
+     display: block;
+     color: $color_text;
+ }
+ 
+ .short-title{
+     text-align: center;
+     justify-content: center;
+     display: block;
+     color: $color_text;
+     font-size: 12px;
+ }
+ 
+ .short-info{
+     text-align: center;
+     justify-content: center;
+     display: block;
+     color: $color_text;
+     font-size: 12px;
+     flex-wrap: wrap;
+     
+ }
+
+ @media screen and (min-width: 500px) {
+    .nav-menu{
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .nav-menu nav ul{
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-menu nav ul li{
+        margin: 3px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .nav-menu nav ul li:hover{
+        background-color: gray;
+        padding: 7px;
+    }
+
+    .paragraf-info{
+        font-size: 15px;
+    }
+}
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .main {
+            display: flex;
+            flex: 1; /* Memungkinkan area utama mengambil ruang yang tersisa */
+            padding: 15px;
+            gap: 15px; /* Menambahkan spasi antara konten utama dan aside */
+        }
+        .content {
+            flex: 3; /* Konten utama mengambil 3 bagian dari ruang */
+        }
+        aside {
+            flex: 1; /* Aside mengambil 1 bagian dari ruang */
+            background-color: #f0f0f0;
+            padding: 15px;
+            min-height: 500px; /* Tinggi minimal aside diubah menjadi 500px */
+            display: flex;
+            flex-direction: column; /* Menyusun isi aside secara vertikal */
+            justify-content: flex-start; /* Mengatur isi ke atas */
+        }
+        aside img {
+            max-width: 100%; /* Responsif */
+            height: auto;
+            margin-top: 10px; /* Menambahkan jarak di atas gambar */
+        }
+
+        aside ul li {
+        list-style: circle;
+    }
+
+    aside a {
+        text-decoration: none;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .logo-aside{
+        width: 50%;
+        margin-left: 70px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kabupaten
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="surabaya.html">Surabaya</a></li>
+                                <li><a class="dropdown-item" href="Malang.html">Malang</a></li>
+                                <li><a class="dropdown-item" href="jember.html">Jember</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main container">
+            <div class="content">
+                <h2>Jember</h2>
+                <p>
+                    Kota Jember, yang terletak di Provinsi Jawa Timur, Indonesia, dikenal sebagai salah satu kota yang memiliki potensi ekonomi, budaya, dan pendidikan yang signifikan. Dengan populasi sekitar 300.000 jiwa, Jember memiliki karakteristik yang unik, terutama sebagai pusat pertanian dan perdagangan. Kota ini dikenal sebagai daerah penghasil tembakau, kopi, dan berbagai hasil pertanian lainnya, menjadikannya sebagai salah satu sentra pertanian di Jawa Timur.
+                    <br><br>
+                    Dari segi budaya, Jember memiliki tradisi yang kaya, terlihat dalam berbagai acara dan festival, seperti **Jember Fashion Carnival**, yang terkenal di tingkat nasional dan internasional, menampilkan kreativitas dan inovasi dalam dunia fashion. Kota ini juga memiliki berbagai bangunan bersejarah dan situs budaya, seperti **Masjid Al-Huda** dan **Taman Botani Jember**, yang menarik perhatian wisatawan dan peneliti.
+                    <br><br>
+                    Kota Jember juga menjadi pusat pendidikan dengan banyak institusi pendidikan tinggi, termasuk Universitas Jember, yang menawarkan berbagai program studi dan menarik mahasiswa dari berbagai daerah. Dengan keindahan alam yang melingkupi kota ini, seperti pegunungan dan pantai, Jember juga memiliki potensi wisata yang menarik, meskipun belum sepenuhnya tereksplorasi. Secara keseluruhan, Jember merupakan kota yang dinamis, dengan kombinasi antara potensi ekonomi, budaya yang kaya, dan pendidikan yang berkualitas, menjadikannya sebagai salah satu kota penting di Jawa Timur.
+                </p>
+
+                <div class="content-2">
+                    <h2>Demografi</h2>
+                    <p>
+                        Demografi Kota Jember mencerminkan keragaman etnis dan budaya yang kaya, dengan populasi sekitar 300.000 jiwa. Mayoritas penduduknya adalah suku Jawa, namun juga terdapat komunitas dari suku Madura, Bali, dan etnis Tionghoa, yang berkontribusi pada keberagaman budaya di kota ini. Bahasa yang paling umum digunakan adalah bahasa Jawa, tetapi bahasa Indonesia juga sering digunakan dalam komunikasi sehari-hari, terutama di kalangan generasi muda dan pendatang.
+                        <br><br>
+                        Kota Jember memiliki tingkat urbanisasi yang moderat, dengan banyak penduduk yang berasal dari daerah pedesaan yang pindah ke kota untuk mencari pekerjaan dan pendidikan. Keberadaan institusi pendidikan, termasuk Universitas Jember dan sejumlah sekolah tinggi, menarik banyak mahasiswa dari luar kota, yang menambah keragaman sosial di Jember. 
+                        <br><br>
+                        Struktur umur penduduk didominasi oleh kelompok usia produktif, yang memberikan potensi besar untuk pertumbuhan ekonomi dan pengembangan sosial. Jember juga dikenal dengan budaya pertaniannya, dengan banyak penduduk yang terlibat dalam sektor pertanian, terutama dalam produksi tembakau dan kopi. Secara keseluruhan, demografi Jember menunjukkan dinamika yang beragam, menciptakan masyarakat yang kaya akan tradisi dan budaya, serta berkontribusi pada perkembangan kota.
+                    </p>
+                </div>
+
+
+                <div class="content-3">
+                    <h2>Ekonomi</h2>
+                    <p>
+                        Ekonomi Kota Jember didominasi oleh sektor pertanian, perdagangan, dan industri, dengan kekayaan sumber daya alam yang melimpah. Jember dikenal sebagai salah satu pusat penghasil tembakau terbesar di Indonesia, yang berkontribusi signifikan terhadap pendapatan daerah. Selain tembakau, kota ini juga terkenal dengan produk pertanian lainnya, seperti kopi, sayuran, dan buah-buahan, yang dipasarkan baik di pasar lokal maupun ekspor.
+                        <br><br>
+                        Sektor perdagangan di Jember cukup berkembang, dengan adanya pasar tradisional dan pusat perbelanjaan modern yang menyediakan berbagai kebutuhan masyarakat. **Pasar Jember** dan **Citra Land** adalah beberapa contoh tempat di mana warga dapat menemukan beragam produk, mulai dari kebutuhan sehari-hari hingga barang-barang fashion. 
+                        <br><br>
+                        Industri di Jember juga beragam, meskipun tidak sebesar di kota-kota lain di Jawa Timur. Beberapa industri yang berkembang antara lain pengolahan hasil pertanian, tekstil, dan makanan olahan. Pemerintah daerah juga berupaya mendukung perkembangan sektor industri melalui kebijakan dan insentif untuk menarik investasi.
+                        <br><br>
+                        Di sisi lain, sektor pariwisata mulai mendapatkan perhatian, dengan adanya potensi wisata alam dan budaya yang menarik bagi pengunjung. Meskipun masih dalam tahap pengembangan, pariwisata di Jember diharapkan dapat memberikan kontribusi tambahan terhadap ekonomi lokal. Secara keseluruhan, ekonomi Jember menunjukkan potensi yang kuat, terutama di sektor pertanian, dengan upaya untuk diversifikasi yang terus dilakukan agar dapat meningkatkan kesejahteraan masyarakat.
+                    </p>
+                </div>
+
+                <div class="content-4">
+                    <h2>Pariwisata</h2>
+                    <p>
+                        Pariwisata di Jember menawarkan berbagai daya tarik yang menggabungkan keindahan alam, budaya, dan sejarah. Salah satu destinasi populer adalah **Pantai Papuma**, yang terkenal dengan pasir putihnya dan pemandangan alam yang menakjubkan, menjadikannya tempat ideal untuk bersantai dan menikmati keindahan laut. Selain itu, **Pantai Watu Ulo** juga menarik perhatian wisatawan dengan keindahan alamnya dan keunikan batu besar yang terletak di tepi pantai.
+                        <br><br>
+                        Jember juga memiliki **Taman Botani Jember**, yang merupakan kebun raya yang luas dan menampilkan beragam koleksi tumbuhan tropis, menjadikannya tempat yang bagus untuk rekreasi dan edukasi. Keberadaan **Air Terjun Tancak** dan **Air Terjun Sumber Manik** menawarkan pengalaman alam yang menenangkan, cocok untuk para penggemar hiking dan petualangan.
+                        <br><br>
+                        Dari segi budaya, **Jember Fashion Carnival** menjadi salah satu acara tahunan yang terkenal, menampilkan kreativitas dan inovasi dalam dunia fashion, dengan parade kostum yang spektakuler dan menarik ribuan pengunjung. Selain itu, situs bersejarah seperti **Masjid Agung Jember** dan **Kantor Bupati Jember** yang memiliki arsitektur menarik juga menjadi daya tarik bagi wisatawan yang ingin mengenal lebih jauh sejarah dan budaya kota ini.
+                        <br><br>
+                        Kuliner Jember juga tidak kalah menarik, dengan berbagai makanan khas yang bisa dinikmati di restoran dan warung lokal. Dengan potensi wisata alam, budaya, dan kuliner yang kaya, Jember terus berupaya mengembangkan sektor pariwisatanya untuk menarik lebih banyak wisatawan, sehingga dapat memberikan dampak positif bagi ekonomi daerah.
+                    </p>
+                </div>
+            </div>
+
+
+            <aside>
+                <h2>Informasi Tambahan</h2>
+                <p>Gambar terkait:</p>
+                <img class="logo-aside" src="img/Lambang-kabupaten-jember.png" alt="Contoh Gambar">
+                <hr>
+                <img src="img/jember.jpeg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consectetur repellat facere architecto iusto dolorem. Consequatur totam esse fugiat, vitae necessitatibus neque. A veniam aliquid esse quis sit id nisi!
+                </p>
+                <hr>
+                <ul>
+                    <li><a target="_blank" href="https://id.wikipedia.org/wiki/Kota_malang">Sumber 1</a></li>
+                    <li><a target="_blank" href="https://malangkota.go.id/">sumber 2</a></li>
+                    <li><a target="_blank" href="https://malangkota.go.id/beranda//">sumber 3</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container text-center">
+            <p>
+                <i class="bi bi-house-door-fill"></i> 
+                &nbsp; &copy; 2024 Provinsi Jawa Timur. All Rights Reserved.
+            </p>
+            <p>
+                <a href="#" class="text-light">
+                    <i class="bi bi-info-circle-fill"></i> About
+                </a> 
+                | 
+                <a href="#" class="text-light">
+                    <i class="bi bi-telephone-fill"></i> Contact
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

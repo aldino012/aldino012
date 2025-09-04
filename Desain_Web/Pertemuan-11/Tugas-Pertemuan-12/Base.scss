@@ -1,0 +1,15 @@
+@use 'nav.scss';
+@use 'content.scss';
+@use 'footer.scss';
+
+$warnaNav : #FFFDF0;
+$warnaBackground:whitesmoke;
+$WarnaFotter:#001F3F;
+$Box: border-box;
+
+body{
+    background-color: $warnaBackground;
+    box-sizing: $Box;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

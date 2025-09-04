@@ -1,0 +1,117 @@
+$background_nav : #90B4E3;
+$background_body : #5A7184;
+$color_text : #ffff;
+$background_header : #ffff;
+$background_footer : #ffff;
+
+@use 'nav.scss';
+@use 'footer.scss';
+
+
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background_body;
+}
+
+.header-menu{
+    background-color: $background_header;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-project{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.title-project{
+    margin-top: 70px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.image-project{
+    margin: 20px;
+    padding: 5px;
+    
+}
+
+.link-project a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.link-project a:hover{
+    color: darkblue;
+}
+
+.image-project img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 500px) {
+    .nav-menu{
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .nav-menu nav ul{
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-menu nav ul li{
+        margin: 3px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-menu nav ul li:hover{
+        background-color: gray;
+        padding: 10px;
+    }
+
+
+
+    .content-project{
+        margin-bottom: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .image-project{
+       padding: 20px;
+       width: 40%;
+    }
+
+    .image-project img{
+        width: 100%;
+        object-fit: cover;
+        height: auto;
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulir Pendaftaran Peserta</h1>
+    </header>
+
+    <main>
+        <form action="submit" name="registrasi" method="post">
+            <label for="nama">Nama</label><br>
+            <input type="text" name="nama" id="nama" required>
+            <br>
+            <br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+
+            <label for="telpon">Nomer Telpon</label><br>
+            <input type="tel" name="telpon" id="telpon">
+            <br>
+            <br>
+            
+
+            <label for="alamat">Alamat</label><br>
+            <textarea name="alamat" id="alamat" rows="10" cols="" ></textarea>
+            <br>
+            <br>
+
+            <label for="kelurahan">Kelurahan</label><br>
+            <select name="kelurahan" id="kelurahan">
+                <option value="cibaduyut">Cibaduyut</option>
+                <option value="banyuwangi">Banyuwangi</option>
+                <option value="surabaya">Surabaya</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="agama">Agama</label><br>
+            <select name="agama" id="agama">
+                <option value="islam">Islam</option>
+                <option value="konghucu">Kobghucu</option>
+                <option value="kristen">Kristen</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="pekerjaan">pekerjaan</label><br>
+            <select name="pekerjaan" id="pekerjaan">
+                <option value="guru">Guru</option>
+                <option value="pejabat">Pejabat</option>
+                <option value="artis">Artis</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="agama">Gender</label><br>
+            <input type="radio" value="laki-laki" name="gender" id=""><label for="laki-laki">Laki-laki</label>
+            <input type="radio" value="Peremuan" name="gender" id=""><label for="Peremuan">Perempuan</label>
+            
+            <br>
+            <br>
+
+
+
+            <label for="start">Tanggal Lahir</label>
+            <input type="date" name="tgl lahir" id="start" value="2024-01-01-01" min="2024-01-01-01" max="2024-12-31"><br>
+            
+            <br>
+            <br>
+
+            <label for="gaji">Gaji</label>
+            <select multiple name="gaji" id="gaji">
+                <option value="gaji-umr">5.000.000</option>
+                <option value="gaji-umr-2">6.000.000</option>
+                <option value="gaji-umr-2">4.000.000</option>
+            </select>
+
+            
+            <input type="button" value="submit"><br>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

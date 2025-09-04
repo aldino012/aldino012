@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Form Sekolah</h1>
+    </header>
+
+    <main>
+        <form action="submit" method="post">
+
+            <label for="">Nama Lengkap</label><br>
+            <input type="text" name="nama" id="nama">
+            <br>
+            <br>
+
+           <label for="tanggal-lahir">TTL</label><br>
+           <input type="date" name="date" id="date">
+            <br>
+            <br>
+
+           <label for="">Asal Sekolah</label><br>
+           <select name="sekolah" id="sekolah">
+               <option value="smknbwi">SMKN 1 BANYUWANGI</option>
+               <option value="smknbwi2">SMKN 2 GLAGAH</option>
+               <option value="smabwi">SMA 1 BANYUWANGI</option>
+           </select>
+          
+           <br>
+           <br>
+
+           <label for="alamat">Alamat</label><br>
+           <textarea name="alamat" id="alamat"></textarea>
+           <br>
+           <br>
+
+           <label for="telpon">No. Telp</label><br>
+           <input type="tel" name="telpon" id="telpon">
+           <br>
+           <br>
+
+           <label for="ortu">Nama Orang Tua</label><br>
+           <input type="text" name="ortu" id="ortu">
+           <br>
+           <br>
+
+           <label for="pekerjaan">pekerjaan</label><br>
+           <select name="pekerjaan" id="pekerjaan">
+                <option value="guru">Guru</option>
+                <option value="petani">Petani</option>
+                <option value="seniman">Seniman</option>
+           </select>
+           <br>
+           <br>
+
+           <label for="kelas">Kelas</label><br>
+           <input type="text" name="kelas" id="kelas">
+           <br>
+           <br>
+
+           <label for="kursus"> Program Kursus</label><br>
+           <input type="text" name="kursus" id="kursus">
+           <br>
+           <br>
+
+           <label for="kursus"></label><br>
+           <select name="kursus" id="kursus">
+                <option value="senin-kamis">Senin dan Kamis</option>
+                <option value="selasa-jumat"> Selasa dan Jumat</option>
+                <option value="rabu-sabtu">Rabu dan sabtu</option>
+           </select>
+           <br>
+           <br>
+
+           <label for="waktu"></label><br>
+           <select name="waktu" id="waktu">
+                <option value="14-15">14.00-15.00</option>
+                <option value="16-17">16.00-16.00</option>
+                <option value="19-20">17.00-18.00</option>
+           </select>
+           <br>
+           <br>
+
+           <label for="tanda-tangan">Orang Tua <br> /Mengetahui</label><br>
+           <input type="file" required><label for="tanda-tangan"></label><br>
+           <p>masukan tanda tangan PNG</p>
+
+           <br>
+
+           <input type="button" value="submit">
+
+        </form>
+    </main>
+</body>
+</html>

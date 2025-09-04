@@ -1,0 +1,233 @@
+/* Global Styles */
+body {
+    background-color: #282B32;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto;
+}
+
+/* Header Section */
+.logo-title {
+    background-color: #001F3F;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    left: 0px;
+    z-index: 1;
+}
+
+/* Navigation Menu */
+.nav {
+    background-color: #65A0DC;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    z-index: 2;
+}
+
+ul.list-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    height: 30px;
+}
+
+li.list-item {
+    margin: 0px auto;
+    text-align: center;
+    width: 120px;
+    padding: 15px;
+    height: 30px;
+}
+
+li.list-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+li.list-item:hover {
+    background-color: #405C94;
+}
+
+/* Separator Line */
+hr {
+    position: relative;
+    top: 150px;
+    height: 5px;
+    border: none;
+    background-color: white;
+}
+
+/* Filters Row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    padding: 0 20px;
+    height: 40px;
+}
+
+.all {
+    background-color: #405C94;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 200px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+}
+
+/* Content Section */
+.isi-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+    position: relative;
+    top: 200px;
+    padding-left: 20px;
+}
+
+/* Card Styling */
+.card {
+    flex: 0 0 calc(33.333% - 40px); /* Set card size dynamically */
+    margin: 10px;
+    position: relative;
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status {
+    display: flex;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    color: white;
+    background-color: #65A0DC;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gambar img {
+    width: 316px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.judul {
+    color: white;
+    font-size: 12px;
+    background-color: #405C94;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px); /* Two columns on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 0 0 100%; /* One column on very small screens */
+    }
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    translate: (50px,50px);
+}
+
+.tombol{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 0px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tombol-1 button,.tombol-2 button,.tombol-3 button{
+
+    border-radius: 5px;
+    background-color: bisque;
+    cursor: pointer;
+
+}
+
+.iklan{
+    
+    padding-left: 0px;
+    position: relative;
+    top: 170px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding: 150px;
+    justify-content: center;
+}
+
+.iklan img{
+    width: 400px;
+    height:auto;
+    
+}
+
+@keyframes gantigambar {
+    0%{background-image: url('img/Iklan.jpg');}
+    25%{background-image: url('img/cocacola.webp');}
+    50%{background-image: url('img/iklan-sosro.png');}
+    75%{background-image: url('img/pucuk.png');}
+    100%{background-image: url('img/images.jpeg');}
+}
+
+.iklan{
+    animation-name: gantigambar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+

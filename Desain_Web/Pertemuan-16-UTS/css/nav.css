@@ -1,0 +1,37 @@
+.nav-menu {
+  background-color: #90B4E3;
+  display: flex;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.nav-menu nav ul li {
+  margin: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.nav-menu nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=nav.css.map */

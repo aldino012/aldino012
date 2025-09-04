@@ -1,0 +1,134 @@
+$background_nav : #90B4E3;
+$background_body : #5A7184;
+$color_text : #ffff;
+$background_header : #ffff;
+$background_footer : #ffff;
+
+@use 'nav.scss';
+@use 'footer.scss';
+
+body{
+    box-sizing: border-box;
+    margin: 0px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: $background_body;
+}
+
+.header-menu{
+    background-color: $background_header;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-skils{
+    text-align: center;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.content-skils{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.image-skills img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 500px) {
+    .nav-menu{
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .nav-menu nav ul{
+        flex-wrap: nowrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .nav-menu nav ul li{
+        margin: 3px;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-menu nav ul li:hover{
+      background-color: gray;
+      padding: 7px;
+  }
+
+    .paragraf-info{
+        font-size: 15px;
+    }
+
+
+    .content-skils{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      padding: 20px;
+      margin-left: 20px;
+      
+    }
+
+    .image-skills{
+      display: block;
+      justify-content:center ;
+      align-items: center;
+      width: 20%;
+      gap: 5px;
+      padding: 10px;    
+
+    }
+
+    .image-skills img{
+      width: 50%;
+      height: auto;
+    }
+
+    .image-skills:hover{
+      transform: scale(1.2);
+      transition: (0.5deg);
+      translate: 10px;
+  }
+
+  .title-skils{
+      margin-top: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+
+
+  }

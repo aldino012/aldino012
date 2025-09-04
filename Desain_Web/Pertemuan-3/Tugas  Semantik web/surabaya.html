@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .main {
+            display: flex;
+            flex: 1; /* Memungkinkan area utama mengambil ruang yang tersisa */
+            padding: 15px;
+            gap: 15px; /* Menambahkan spasi antara konten utama dan aside */
+        }
+        .content {
+            flex: 3; /* Konten utama mengambil 3 bagian dari ruang */
+        }
+        aside {
+            flex: 1; /* Aside mengambil 1 bagian dari ruang */
+            background-color: #f0f0f0;
+            padding: 15px;
+            min-height: 500px; /* Tinggi minimal aside diubah menjadi 500px */
+            display: flex;
+            flex-direction: column; /* Menyusun isi aside secara vertikal */
+            justify-content: flex-start; /* Mengatur isi ke atas */
+        }
+        aside img {
+            max-width: 100%; /* Responsif */
+            height: auto;
+            margin-top: 10px; /* Menambahkan jarak di atas gambar */
+        }
+
+        aside ul li {
+        list-style: none;
+    }
+
+    aside a {
+        text-decoration: none;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kabupaten
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="surabaya.html">Surabaya</a></li>
+                                <li><a class="dropdown-item" href="Malang.html">Malang</a></li>
+                                <li><a class="dropdown-item" href="jember.html">Jember</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main container">
+            <div class="content">
+                <h2>Surabaya</h2>
+                <p>
+                    Surabaya, sebagai ibu kota Provinsi Jawa Timur, merupakan salah satu kota terbesar dan terpenting di Indonesia. Dengan populasi lebih dari 3 juta jiwa, Surabaya dikenal sebagai pusat ekonomi, perdagangan, dan pendidikan di kawasan timur Indonesia. Kota ini memiliki pelabuhan terbesar di Indonesia, yaitu Pelabuhan Tanjung Perak, yang berperan penting dalam aktivitas ekspor-impor dan menjadikannya sebagai gerbang utama bagi perdagangan di wilayah timur.
+                    <br><br>
+                    Dari segi sejarah, Surabaya memiliki warisan budaya yang kaya, dengan banyak bangunan bersejarah dan situs yang mencerminkan pengaruh kolonial Belanda. Beberapa tempat menarik di Surabaya antara lain Tugu Pahlawan, yang merupakan simbol perjuangan kemerdekaan Indonesia, dan House of Sampoerna, yang merupakan museum dan pabrik rokok terkenal. 
+                    <br><br>
+                    Kota ini juga dikenal dengan keanekaragaman kulinernya, seperti sate, rawon, dan rujak cingur, yang merupakan makanan khas Surabaya. Surabaya memiliki banyak pusat perbelanjaan, taman, dan ruang terbuka hijau yang mendukung gaya hidup perkotaan yang modern dan dinamis. Dalam beberapa tahun terakhir, Surabaya telah bertransformasi menjadi kota yang lebih ramah lingkungan dan berkelanjutan, dengan berbagai proyek pembangunan infrastruktur yang bertujuan untuk meningkatkan kualitas hidup warganya. Secara keseluruhan, Surabaya merupakan kota yang kaya akan sejarah, budaya, dan peluang, menjadikannya pusat vital di Indonesia.
+                </p>
+
+                <div class="content-2">
+                    <h2>Demografi</h2>
+                    <p>
+                        Demografi Surabaya mencerminkan keragaman etnis dan budaya yang kaya, dengan populasi lebih dari 3 juta jiwa, menjadikannya sebagai kota terbesar kedua di Indonesia setelah Jakarta. Mayoritas penduduk Surabaya adalah suku Jawa, tetapi kota ini juga dihuni oleh berbagai suku dan etnis lainnya, termasuk Madura, Tionghoa, Arab, dan lainnya. Keragaman ini menciptakan lingkungan yang multikultural, terlihat dalam berbagai tradisi, festival, dan kuliner yang ada di kota ini.
+                        <br><br>
+                        Bahasa yang paling umum digunakan adalah bahasa Jawa, tetapi bahasa Indonesia, serta bahasa daerah lainnya, juga sering dipakai dalam kehidupan sehari-hari. Tingkat urbanisasi yang tinggi membuat Surabaya menjadi kota metropolitan yang dinamis, dengan banyak pendatang dari berbagai daerah di Indonesia yang mencari peluang kerja dan pendidikan. Surabaya juga memiliki berbagai institusi pendidikan, termasuk universitas terkemuka seperti Universitas Airlangga dan Universitas Negeri Surabaya, yang menarik mahasiswa dari seluruh Indonesia.
+                        <br><br>
+                        Dengan pertumbuhan ekonomi yang pesat, Surabaya memiliki berbagai kelompok usia, dengan proporsi yang signifikan dari kalangan muda. Hal ini menciptakan potensi demografis yang besar untuk pengembangan ekonomi dan sosial. Secara keseluruhan, demografi Surabaya menunjukkan dinamika yang kompleks dan beragam, yang berkontribusi pada kekayaan budaya dan perkembangan kota.
+                    </p>
+                </div>
+
+
+                <div class="content-3">
+                    <h2>Ekonomi</h2>
+                    <p>
+                        Ekonomi Surabaya adalah salah satu yang terbesar dan paling dinamis di Indonesia, berfungsi sebagai pusat perdagangan, industri, dan layanan di kawasan timur negara ini. Kota ini dikenal sebagai pusat bisnis dengan berbagai sektor yang berkembang, termasuk perdagangan, manufaktur, dan jasa. Surabaya memiliki Pelabuhan Tanjung Perak, yang merupakan pelabuhan utama dan salah satu yang terbesar di Indonesia, berperan vital dalam kegiatan ekspor dan impor, serta menjadikannya sebagai gerbang perdagangan di Indonesia bagian timur.
+                        <br><br>
+                        Sektor industri di Surabaya sangat beragam, mencakup industri makanan dan minuman, tekstil, elektronika, otomotif, dan furnitur. Kota ini juga memiliki sejumlah zona industri yang mendukung pertumbuhan sektor manufaktur. Selain itu, sektor jasa, termasuk perbankan, transportasi, dan pariwisata, juga memberikan kontribusi signifikan terhadap ekonomi kota ini. Surabaya sebagai kota metropolitan memiliki infrastruktur yang baik, termasuk jalan raya, transportasi umum, dan fasilitas pendukung lainnya, yang membantu mendukung aktivitas ekonomi.
+                        <br><br>
+                        Perdagangan ritel juga berkembang pesat di Surabaya, dengan banyak pusat perbelanjaan, pasar tradisional, dan toko yang menawarkan beragam produk. Kegiatan ekonomi ini tidak hanya menarik penduduk lokal tetapi juga wisatawan dari berbagai daerah. Selain itu, Surabaya terus berupaya mengembangkan ekonomi berkelanjutan dengan investasi dalam teknologi dan inovasi, serta meningkatkan daya saing kota di tingkat nasional dan internasional. Dengan semua potensi yang dimilikinya, Surabaya tetap menjadi pusat ekonomi yang penting bagi Jawa Timur dan Indonesia secara keseluruhan.
+                    </p>
+                </div>
+
+                <div class="content-4">
+                    <h2>Pariwisata</h2>
+                    <p>
+                        Pariwisata di Surabaya menawarkan kombinasi unik antara wisata sejarah, budaya, dan alam, menjadikannya sebagai salah satu destinasi menarik di Indonesia. Salah satu ikon pariwisata kota ini adalah **Tugu Pahlawan**, yang merupakan monumen untuk menghormati para pahlawan yang gugur dalam pertempuran 10 November 1945, dan sering dikunjungi wisatawan untuk memahami sejarah perjuangan kemerdekaan Indonesia. Selain itu, **House of Sampoerna**, sebuah museum dan pabrik rokok, menarik pengunjung dengan koleksi sejarah rokok dan arsitektur kolonialnya yang indah.
+                        <br><br>
+                        Surabaya juga memiliki **Kebun Binatang Surabaya**, salah satu kebun binatang tertua dan terbesar di Indonesia, yang menawarkan pengalaman edukatif bagi pengunjung tentang berbagai spesies hewan. **Masjid Al-Akbar**, masjid terbesar di Jawa Timur, menjadi tujuan wisata religius dengan arsitektur yang megah dan menara yang dapat dikunjungi untuk melihat pemandangan kota dari ketinggian.
+                        <br><br>
+                        Selain tempat-tempat tersebut, Surabaya juga dikenal dengan **kuliner khas** yang menggugah selera, seperti rawon, rujak cingur, dan sate, yang dapat ditemukan di berbagai restoran dan warung makan di seluruh kota. Di sisi lain, keindahan alam seperti **Pantai Kenjeran** dan **Taman Hiburan Rakyat (THR)** juga menjadi daya tarik tersendiri bagi wisatawan.
+                        <br><br>
+                        Dengan semakin banyaknya pusat perbelanjaan modern dan area publik yang ramah pengunjung, seperti **Taman Bungkul**, Surabaya terus berupaya meningkatkan kualitas pariwisata dan menarik lebih banyak wisatawan. Pemerintah kota juga aktif dalam mengembangkan sektor pariwisata melalui promosi dan penyelenggaraan berbagai festival dan acara budaya, menjadikan Surabaya sebagai destinasi yang menarik dan beragam bagi para pelancong.
+                    </p>
+                </div>
+            </div>
+
+
+            <aside>
+                <h2>Informasi Tambahan</h2>
+                <p>Gambar terkait:</p>
+                <img src="img/l_surabaya.png" alt="Contoh Gambar">
+                <hr>
+                <img src="img/images.jpeg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate voluptatibus, dolor iusto sit culpa a ut impedit, assumenda deserunt, minus eveniet aut est perferendis at. Maiores beatae magnam nobis accusamus.
+                </p>
+                <hr>
+                <span>Sumber lain :</span>
+                <ul>
+                    <li><a target="_blank" href="https://id.wikipedia.org/wiki/Kota_Surabaya">wikipedia</a></li>
+                    <li><a target="_blank" href="https://ikbis.ac.id/tentang-surabaya/">Jatim Prov</a></li>
+                    <li><a target="_blank" href="https://tourism.surabaya.go.id/destination/f53cdac6-42ff-46f2-8f06-77857e1422a0/">Jatim</a></li>
+                </ul>
+            </aside>
+        </div>
+        
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container text-center">
+            <p>
+                <i class="bi bi-house-door-fill"></i> 
+                &nbsp; &copy; 2024 Provinsi Jawa Timur. All Rights Reserved.
+            </p>
+            <p>
+                <a href="#" class="text-light">
+                    <i class="bi bi-info-circle-fill"></i> About
+                </a> 
+                | 
+                <a href="#" class="text-light">
+                    <i class="bi bi-telephone-fill"></i> Contact
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

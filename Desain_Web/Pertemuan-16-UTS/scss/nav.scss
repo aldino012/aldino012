@@ -1,0 +1,46 @@
+$background_nav : #90B4E3;
+$background_body : #5A7184;
+$color_text : #ffff;
+$background_header : #ffff;
+$background_footer : #ffff;
+
+.nav-menu{
+    background-color: $background_nav;
+    display: flex;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    
+
+}
+
+.nav-menu nav ul li{
+    margin: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    
+}
+
+.nav-menu nav ul li a{
+    text-decoration: none;
+    color: $color_text;
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
+    
+    
+}

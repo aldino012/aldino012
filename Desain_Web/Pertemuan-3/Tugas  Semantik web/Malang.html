@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .main {
+            display: flex;
+            flex: 1; /* Memungkinkan area utama mengambil ruang yang tersisa */
+            padding: 15px;
+            gap: 15px; /* Menambahkan spasi antara konten utama dan aside */
+        }
+        .content {
+            flex: 3; /* Konten utama mengambil 3 bagian dari ruang */
+        }
+        aside {
+            flex: 1; /* Aside mengambil 1 bagian dari ruang */
+            background-color: #f0f0f0;
+            padding: 15px;
+            min-height: 500px; /* Tinggi minimal aside diubah menjadi 500px */
+            display: flex;
+            flex-direction: column; /* Menyusun isi aside secara vertikal */
+            justify-content: flex-start; /* Mengatur isi ke atas */
+        }
+        aside img {
+            max-width: 100%; /* Responsif */
+            height: auto;
+            margin-top: 10px; /* Menambahkan jarak di atas gambar */
+        }
+
+        aside ul li {
+        list-style: circle;
+    }
+
+    aside a {
+        text-decoration: none;
+    }
+
+    .logo-aside{
+        width: 50%;
+        margin-left:70px;
+    }
+
+    footer {
+        background-color: #343a40;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Logo" height="30" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Kabupaten
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="surabaya.html">Surabaya</a></li>
+                                <li><a class="dropdown-item" href="Malang.html">Malang</a></li>
+                                <li><a class="dropdown-item" href="jember.html">Jember</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main container">
+            <div class="content">
+                <h2>Malang</h2>
+                <p>
+                    Kota Malang, terletak di Provinsi Jawa Timur, Indonesia, adalah salah satu kota yang terkenal dengan keindahan alam, iklim sejuk, dan warisan budayanya yang kaya. Dengan populasi sekitar 800.000 jiwa, Malang dikenal sebagai pusat pendidikan di Jawa Timur, dengan banyak perguruan tinggi terkemuka seperti Universitas Brawijaya dan Universitas Negeri Malang, yang menarik ribuan mahasiswa dari berbagai daerah.
+                    <br><br>
+                    Kota ini dikelilingi oleh pegunungan dan memiliki udara yang sejuk, menjadikannya sebagai destinasi populer untuk wisatawan yang mencari suasana alam yang tenang. Salah satu daya tarik utama adalah **Gunung Semeru**, gunung tertinggi di Jawa, serta **Gunung Bromo** yang terkenal dengan keindahan matahari terbitnya. Di dalam kota, terdapat berbagai taman dan ruang terbuka hijau, seperti **Taman Rekreasi Sengkaling**, yang menjadi tempat favorit untuk bersantai dan berwisata keluarga.
+                    <br><br>
+                    Malang juga memiliki berbagai tempat bersejarah dan budaya, termasuk **Candi Singosari** dan **Candi Jago**, yang mencerminkan warisan sejarah Hindu-Buddha di wilayah tersebut. Kuliner Malang juga sangat terkenal, dengan hidangan khas seperti bakso Malang, rawon, dan pisang plenet, yang banyak ditemukan di warung dan restoran di seluruh kota. 
+                    <br><br>
+                    Dengan kombinasi keindahan alam, pendidikan yang berkualitas, dan kekayaan budaya, Malang menjadi salah satu kota yang menarik untuk dikunjungi dan dihuni, menawarkan berbagai pengalaman yang unik bagi penduduk dan wisatawan. Kota ini terus berupaya mengembangkan infrastruktur dan pariwisata, menjadikannya sebagai salah satu destinasi utama di Jawa Timur.
+                </p>
+
+                <div class="content-2">
+                    <h2>Demografi</h2>
+                    <p>
+                        Demografi Malang mencerminkan keragaman budaya dan etnis yang kaya, dengan populasi sekitar 800.000 jiwa. Kota ini dihuni oleh mayoritas suku Jawa, tetapi juga memiliki komunitas etnis lain, termasuk Madura, Tionghoa, dan Arab. Bahasa yang paling umum digunakan adalah bahasa Jawa, tetapi bahasa Indonesia juga dipakai secara luas, terutama di kalangan generasi muda dan pendatang. Malang dikenal sebagai kota pendidikan, dengan banyak perguruan tinggi, seperti Universitas Brawijaya dan Universitas Negeri Malang, yang menarik mahasiswa dari berbagai daerah di Indonesia, menciptakan suasana kosmopolitan. 
+                        <br><br>
+                        Kota ini juga memiliki tingkat urbanisasi yang tinggi, dengan banyak penduduk yang berpindah dari desa ke kota untuk mencari pekerjaan dan pendidikan, sehingga meningkatkan keragaman sosial dan ekonomi. Struktur umur penduduk Malang didominasi oleh kelompok usia produktif, yang memberikan potensi besar untuk perkembangan ekonomi dan sosial. Dengan kombinasi budaya, pendidikan, dan pertumbuhan penduduk, demografi Malang menciptakan dinamika yang unik, berkontribusi pada kekayaan sosial dan budaya kota ini.
+                    </p>
+                </div>
+
+
+                <div class="content-3">
+                    <h2>Ekonomi</h2>
+                    <p>
+                        Ekonomi Malang berkembang pesat dengan berbagai sektor yang saling mendukung, termasuk pertanian, perdagangan, industri, dan pariwisata. Malang dikenal sebagai daerah penghasil pertanian yang subur, dengan produk unggulan seperti sayuran, buah-buahan, dan apel Malang yang terkenal di seluruh Indonesia. Perdagangan di kota ini sangat dinamis, ditandai dengan keberadaan pasar tradisional seperti Pasar Besar Malang dan pusat perbelanjaan modern seperti Malang Town Square yang ramai dikunjungi. Sektor industri juga berkontribusi, terutama dalam makanan dan minuman, kerajinan tangan, serta tekstil. Selain itu, sektor pariwisata memainkan peran penting, dengan berbagai destinasi menarik seperti Gunung Bromo dan Taman Rekreasi Sengkaling yang menarik wisatawan domestik dan internasional. Keberadaan perguruan tinggi seperti Universitas Brawijaya dan Universitas Negeri Malang juga memberikan kontribusi ekonomi signifikan, menciptakan permintaan untuk akomodasi dan layanan lainnya. Dengan keberagaman sektor ini, ekonomi Malang terus berupaya beradaptasi dan berkembang, menjadikannya salah satu kota penting dalam perekonomian Jawa Timur.
+                    </p>
+                </div>
+
+                <div class="content-4">
+                    <h2>Pariwisata</h2>
+                    <p>
+                        Pariwisata di Malang menawarkan kombinasi keindahan alam, kekayaan budaya, dan pengalaman kuliner yang menarik, menjadikannya salah satu destinasi wisata populer di Jawa Timur. Salah satu daya tarik utama adalah **Gunung Bromo**, yang terkenal dengan pemandangan matahari terbit yang spektakuler, serta keindahan alam sekitarnya yang menawan. Selain itu, **Coban Rondo** dan **Coban Talun** merupakan air terjun yang indah dan sering dikunjungi oleh wisatawan yang ingin menikmati suasana alam yang segar. 
+                        <br><br>
+                        Kota Malang juga dikenal dengan **Taman Rekreasi Sengkaling**, yang menawarkan berbagai wahana permainan dan area rekreasi keluarga, serta **Jatim Park 1 dan 2**, yang merupakan taman hiburan dan edukasi yang menarik bagi keluarga dan anak-anak. Di samping itu, Malang memiliki banyak candi bersejarah, seperti **Candi Singosari** dan **Candi Jago**, yang mencerminkan warisan sejarah dan budaya Hindu-Buddha di daerah tersebut.
+                        <br><br>
+                        Kuliner Malang juga menjadi daya tarik tersendiri, dengan hidangan khas seperti **bakso Malang**, **rawon**, dan **apel Malang** yang terkenal. Wisatawan dapat menemukan berbagai makanan ini di restoran, warung, dan pasar lokal. Dengan kombinasi keindahan alam, atraksi budaya, dan kuliner yang menggugah selera, pariwisata di Malang terus berkembang dan menarik pengunjung dari berbagai daerah di Indonesia maupun mancanegara.
+                    </p>
+                </div>
+            </div>
+
+
+            <aside>
+                <h2>Informasi Tambahan</h2>
+                <p>Gambar terkait:</p>
+                <img class="logo-aside" src="img/Logo_Kota_Malang_color.png" alt="Contoh Gambar">
+                <hr>
+                <img src="img/malang.jpg" alt="">
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius harum repellat, minus nemo explicabo cumque temporibus, necessitatibus numquam, earum incidunt et in rerum dolore aperiam debitis sunt dolores magnam nihil.
+                </p>
+                <hr>
+                <span>Sumber lengkap  :</span>
+                <ul>
+                    <li><a target="_blank" href="https://id.wikipedia.org/wiki/Kota_malang">Sumber 1</a></li>
+                    <li><a target="_blank" href="https://malangkota.go.id/">sumber 2</a></li>
+                    <li><a target="_blank" href="https://malangkota.go.id/beranda//">sumber 3</a></li>
+                </ul>
+            </aside>
+        </div>
+        
+    </main>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container text-center">
+            <p>
+                <i class="bi bi-house-door-fill"></i> 
+                &nbsp; &copy; 2024 Provinsi Jawa Timur. All Rights Reserved.
+            </p>
+            <p>
+                <a href="#" class="text-light">
+                    <i class="bi bi-info-circle-fill"></i> About
+                </a> 
+                | 
+                <a href="#" class="text-light">
+                    <i class="bi bi-telephone-fill"></i> Contact
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

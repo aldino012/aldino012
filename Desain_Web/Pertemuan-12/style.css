@@ -1,0 +1,42 @@
+nav {
+  text-align: right;
+  background-color: #ccc;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: blue;
+}
+nav li a:hover {
+  background-color: blue;
+  color: #ccc;
+}
+
+.primer {
+  color: red;
+  background-color: blue;
+  border: 3px yellow dashed;
+  padding: 3em;
+}
+
+.inverse-primer {
+  color: blue;
+  background-color: red;
+  border: 3px yellow dashed;
+  padding: 3em;
+  width: 512px;
+}
+
+aside {
+  color: blue;
+  width: 25600px;
+}/*# sourceMappingURL=style.css.map */

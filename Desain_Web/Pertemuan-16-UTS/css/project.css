@@ -1,0 +1,150 @@
+.nav-menu {
+  background-color: #90B4E3;
+  display: flex;
+  height: 60px;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-menu nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+.nav-menu nav ul li {
+  margin: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+
+.nav-menu nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.footer-menu {
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 70px;
+  gap: 10px;
+  align-items: center;
+}
+
+.title-footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #5A7184;
+}
+
+.header-menu {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-project {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.title-project {
+  margin-top: 70px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-project {
+  margin: 20px;
+  padding: 5px;
+}
+
+.link-project a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.link-project a:hover {
+  color: darkblue;
+}
+
+.image-project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 500px) {
+  .nav-menu {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav-menu nav ul {
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-menu nav ul li {
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-menu nav ul li:hover {
+    background-color: gray;
+    padding: 10px;
+  }
+  .content-project {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .image-project {
+    padding: 20px;
+    width: 40%;
+  }
+  .image-project img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=project.css.map */

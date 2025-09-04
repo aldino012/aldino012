@@ -1,0 +1,13 @@
+h1{
+    font-size: 50px;
+    color: antiquewhite;
+    background-color: black;
+    border: dashed 10px solid cadetblue;
+    border-width: 20px;
+}
+
+p{
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
