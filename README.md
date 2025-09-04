@@ -32,10 +32,29 @@
 
 ---
 
-## 🌟 Featured Projects
-- 🚧 *Akan segera diisi dengan project terbaik (Front-End & Design).*  
-- 🎨 Showcase desain dari Figma + implementasi dengan Bootstrap.  
-- 🤖 Eksperimen Prompt AI untuk membuat ide unik.  
+## 🌟 Featured Projects (Figma Showcase)
+
+### 🎬 Website Streaming Anime  
+🔗 [Lihat Desain di Figma](https://www.figma.com/design/9HwKfe6j53e1Yn6HpQX4vV/Untitled?m=auto&t=Mg7OtqU3omF6hN25-6)  
+Desain website untuk layanan streaming anime dengan fokus pada UI yang modern dan responsif.
+
+---
+
+### 📚 Website E-Learning  
+🔗 [Lihat Desain di Figma](https://www.figma.com/design/E0eIlxjwUAl4V1O78uk5U3/Untitled?m=auto&t=Mg7OtqU3omF6hN25-6)  
+Konsep platform e-learning dengan fitur interaktif untuk mendukung kegiatan belajar online.
+
+---
+
+### 🎮 Game Mobile Sederhana  
+🔗 [Coba Prototype di Figma](https://www.figma.com/proto/PFt9lo7OQwazoEz7Wo1Rg9?node-id=0-1&t=Mg7OtqU3omF6hN25-6)  
+Prototype sederhana untuk game mobile, menampilkan alur interaksi pengguna.
+
+---
+
+### 🌾 Website Petani (Katalog Produk)  
+🔗 [Lihat Desain di Figma](https://www.figma.com/design/hNzFvU3xfp2nhBZMaOEN9g/katalog?m=auto&t=Mg7OtqU3omF6hN25-6)  
+Desain website katalog untuk petani dengan tampilan sederhana dan mudah digunakan.
 
 ---
 
