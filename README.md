@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Achmad Aldino</h1>
-<h3 align="center">Front-End Developer | Web Designer | AI Prompt Enthusiast</h3>
+<!-- Animasi Typing -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Achmad+Aldino;Front-End+Developer;Web+Designer;AI+Prompt+Enthusiast;UI%2FUX+Design+with+Figma)](https://git.io/typing-svg)
 
 ---
 
@@ -36,25 +36,29 @@
 
 ### 🎬 Website Streaming Anime  
 🔗 [Lihat Desain di Figma](https://www.figma.com/design/9HwKfe6j53e1Yn6HpQX4vV/Untitled?m=auto&t=Mg7OtqU3omF6hN25-6)  
-Desain website untuk layanan streaming anime dengan fokus pada UI yang modern dan responsif.
+🖼️ Preview:  
+<img src="assets/anime-streaming.gif" alt="Anime Website Demo" width="500"/>  
 
 ---
 
 ### 📚 Website E-Learning  
 🔗 [Lihat Desain di Figma](https://www.figma.com/design/E0eIlxjwUAl4V1O78uk5U3/Untitled?m=auto&t=Mg7OtqU3omF6hN25-6)  
-Konsep platform e-learning dengan fitur interaktif untuk mendukung kegiatan belajar online.
+🖼️ Preview:  
+<img src="assets/e-learning.gif" alt="E-Learning Website Demo" width="500"/>  
 
 ---
 
 ### 🎮 Game Mobile Sederhana  
 🔗 [Coba Prototype di Figma](https://www.figma.com/proto/PFt9lo7OQwazoEz7Wo1Rg9?node-id=0-1&t=Mg7OtqU3omF6hN25-6)  
-Prototype sederhana untuk game mobile, menampilkan alur interaksi pengguna.
+🖼️ Preview:  
+<img src="assets/game-mobile.gif" alt="Game Mobile Demo" width="300"/>  
 
 ---
 
 ### 🌾 Website Petani (Katalog Produk)  
 🔗 [Lihat Desain di Figma](https://www.figma.com/design/hNzFvU3xfp2nhBZMaOEN9g/katalog?m=auto&t=Mg7OtqU3omF6hN25-6)  
-Desain website katalog untuk petani dengan tampilan sederhana dan mudah digunakan.
+🖼️ Preview:  
+<img src="assets/petani.gif" alt="Website Petani Demo" width="500"/>  
 
 ---
 
