@@ -1,37 +1,117 @@
-# Hi there 👋, I'm Achmad Aldino
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Achmad Aldino</title>
+<style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-Saya seorang **programmer dan kreator digital** yang tertarik dengan teknologi, desain, dan AI. Saya terus belajar dan mengeksplorasi cara-cara baru untuk menggabungkan kreativitas dengan teknologi.  
+  header {
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+  }
 
----
+  h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    animation: fadeInDown 1s ease forwards;
+  }
 
-## 🛠️ Keahlian & Tools
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+    animation: fadeIn 1.5s ease forwards;
+  }
 
-Walaupun saya masih dalam tahap belajar, ini beberapa hal yang bisa saya lakukan:
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 20px;
+    gap: 20px;
+  }
 
-- 💻 **AI Prompter** – Membuat prompt untuk berbagai aplikasi AI  
-- 🎨 **Adobe Animate** – Membuat media interaktif dan animasi  
-- 🎨 **Figma & UI/UX** – Mendesain antarmuka yang ramah pengguna  
-- 🖌️ **Canva** – Desain grafis sederhana untuk berbagai kebutuhan  
-- 🌐 **Membuat Website dengan AI** – Membuat website menggunakan bantuan AI  
+  .skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+  }
 
----
+  .skill-card:hover {
+    transform: translateY(-10px) scale(1.05);
+  }
 
-## 🌱 Sedang Belajar
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
 
-Saya terus mengasah kemampuan saya di bidang-bidang berikut:  
+  @keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
 
-- Pengembangan website lebih kompleks  
-- Desain UI/UX tingkat lanjut  
-- Integrasi AI dalam proyek kreatif  
+  footer {
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #555;
+  }
 
----
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #6a11cb;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
 
-## 📫 Cara Menghubungi Saya
+  button:hover {
+    background: #2575fc;
+  }
+</style>
+</head>
+<body>
 
-- Email: [your-email@example.com](mailto:your-email@example.com)  
-- LinkedIn: [linkedin.com/in/your-linkedin](https://linkedin.com/in/your-linkedin)  
+<header>
+  <h1>Hi, I'm Achmad Aldino 👋</h1>
+  <p>Programmer & Creative Technologist</p>
+  <button onclick="showAlert()">Klik saya!</button>
+</header>
 
----
+<section class="skills">
+  <div class="skill-card">💻 AI Prompter</div>
+  <div class="skill-card">🎨 Adobe Animate</div>
+  <div class="skill-card">🎨 Figma / UI/UX</div>
+  <div class="skill-card">🖌️ Canva</div>
+  <div class="skill-card">🌐 Website dengan AI</div>
+</section>
 
-Terima kasih sudah mampir! 🌟  
-Saya selalu terbuka untuk kolaborasi atau proyek kreatif baru.
+<footer>
+  📫 Hubungi saya: <a href="mailto:your-email@example.com">your-email@example.com</a>
+</footer>
+
+<script>
+  function showAlert() {
+    alert("Terima kasih sudah mengunjungi portofolio saya! 🌟");
+  }
+</script>
+
+</body>
+</html>
